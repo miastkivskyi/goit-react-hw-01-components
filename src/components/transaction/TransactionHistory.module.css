@@ -1,0 +1,26 @@
+.transaction_history {
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 750px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.thead {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #78dbe2;
+  color: #ffffff;
+}
+
+.title {
+  padding: 10px;
+}
+
+.cell {
+  padding: 10px;
+  text-align: center;
+}
+
+.roll:nth-of-type(even) {
+  background-color: rgba(166, 189, 215, 0.5);
+}
