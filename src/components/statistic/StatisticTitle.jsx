@@ -4,7 +4,7 @@ import css from './StatisticTitle.module.css';
 export const StatisticTitle = ({ title, children }) => {
   return (
     <section className={css.statistics}>
-      {title.length > 0 && <h2 className={css.title}>{title}</h2>}
+      {title && <h2 className={css.title}>{title}</h2>}
       {children}
     </section>
   );
